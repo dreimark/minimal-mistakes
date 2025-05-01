@@ -1,8 +1,9 @@
+# Site Settings
 title: "Micha Denkt In Text"
 title_separator: "-"
 subtitle: "Digitale Gedanken zu Code, Technik & Automatisierung"
 name: "Michael Huber"
-description: "Ein persönlicher Blog über Technologie, Automatisierung, Selfhosting und digitale Ideen"
+description: "Ein persönlicher Blog über Tech, Automatisierung, Selfhosting und digitale Ideen"
 locale: "de-DE"
 url: "https://dreimark.com"
 baseurl: ""
@@ -12,26 +13,29 @@ masthead_title: "Micha Denkt In Text"
 breadcrumbs: true
 minimal_mistakes_skin: "dark"
 
+# Custom CSS
 custom_css:
   - /assets/css/custom.css
 
+# Author Information
 author:
   name: "Michael Huber"
   avatar: "/assets/images/avatar.jpg"
-  bio: "Developer. Tech-Enthusiast. Open Source Fan."
-  location: "Offenburg, Deutschland"
+  bio: "Dev, Tech Lover, Open Source Fan"
+  location: "Offenburg, Germany"
   email: "michael@dreimark.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dreimark.com"
-    - label: "E-Mail"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:michael@dreimark.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dreimark"
 
+# Social Links
 social:
   type: "Person"
   name: "Michael Huber"
@@ -39,6 +43,7 @@ social:
     - "https://github.com/dreimark"
     - "mailto:michael@dreimark.com"
 
+# Footer Links
 footer:
   links:
     - label: "E-Mail"
@@ -48,14 +53,17 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dreimark"
 
+# SEO and Sharing
 og_image: "/assets/images/og-image.jpg"
 copyright: "© 2025 Michael Huber"
 copyright_url: "https://dreimark.com"
 
+# Features
 search: true
 search_full_content: true
 enable_copy_code_button: true
 
+# Defaults for Posts
 defaults:
   - scope:
       path: ""
@@ -68,35 +76,40 @@ defaults:
       share: true
       related: true
 
+# Markdown and Output Settings
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
 
+# Permalinks
 permalink: /:categories/:title/
 
+# Pagination
 paginate: 5
 paginate_path: /page:num/
 
+# Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
-
 tag_archive:
   type: liquid
   path: /tags/
 
+# HTML Compression
 compress_html:
   clippings: all
   ignore:
     envs: development
 
+# Sass Settings
 sass:
   sass_dir: _sass
   style: compressed
