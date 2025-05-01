@@ -2,7 +2,7 @@ title: "Micha Denkt In Text"
 title_separator: "-"
 subtitle: "Digitale Gedanken zu Code, Technik & Automatisierung"
 name: "Michael Huber"
-description: "Ein persönlicher Blog über Tech, Automatisierung, Selfhosting und digitale Ideen"
+description: "Ein persönlicher Blog über Technologie, Automatisierung, Selfhosting und digitale Ideen"
 locale: "de-DE"
 url: "https://dreimark.com"
 baseurl: ""
@@ -18,13 +18,19 @@ custom_css:
 author:
   name: "Michael Huber"
   avatar: "/assets/images/avatar.jpg"
-  bio: "Dev, Tech Lover, Open Source Fan"
-  location: "Offenburg, Germany"
+  bio: "Developer. Tech-Enthusiast. Open Source Fan."
+  location: "Offenburg, Deutschland"
   email: "michael@dreimark.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dreimark.com"
+    - label: "E-Mail"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:michael@dreimark.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dreimark"
 
 social:
   type: "Person"
@@ -72,10 +78,11 @@ paginate: 5
 paginate_path: /page:num/
 
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-gist
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
 
 category_archive:
   type: liquid
