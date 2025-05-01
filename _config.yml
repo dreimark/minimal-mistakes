@@ -100,3 +100,13 @@ compress_html:
 sass:
   sass_dir: _sass
   style: compressed
+
+# Header Navigation
+header:
+  nav:
+    - label: "About Me"
+      url: "/about/"
+    - label: "Posts"
+      url: "/posts/"
+    - label: "Contact"
+      url: "/contact/"
