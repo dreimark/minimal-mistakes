@@ -48,6 +48,8 @@ copyright_url: "https://dreimark.com"
 search: true
 search_full_content: true
 enable_copy_code_button: true
+code_block_formatting: true # Enable better formatting for code blocks
+highlight_theme: "monokai" # Set a visually appealing theme for code highlighting
 
 # Defaults for Posts
 defaults:
@@ -100,6 +102,20 @@ compress_html:
 sass:
   sass_dir: _sass
   style: compressed
+
+# HTTPS and Performance
+https: true
+force_https: true
+http2: true
+ssl:
+  protocols: ["TLSv1.2", "TLSv1.3"]
+  ciphers: "HIGH:!aNULL:!MD5"
+  ocsp_stapling: true
+  hsts:
+    enabled: true
+    max_age: 31536000
+    include_subdomains: true
+    preload: true
 
 # Header Navigation
 header:
