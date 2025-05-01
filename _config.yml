@@ -1,9 +1,9 @@
 # Site Settings
 title: "Micha Denkt In Text"
 title_separator: "-"
-subtitle: "Digitale Gedanken zu Code, Technik & Automatisierung"
+subtitle: "Die Zukunft von dreimark.com – Gedanken, Projekte und mehr"
 name: "Michael Huber"
-description: "Ein persönlicher Blog über Tech, Automatisierung, Selfhosting und digitale Ideen"
+description: "Der zentrale Ort für digitale Projekte, Automatisierung, Selfhosting und technische Inspirationen – bald die neue Heimat von dreimark.com"
 locale: "de-DE"
 url: "https://dreimark.com"
 baseurl: "" # Site is hosted at root domain
@@ -31,19 +31,13 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:michael@dreimark.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dreimark"
 
 # Footer Links
 footer:
   links:
-    - label: "E-Mail"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:michael@dreimark.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dreimark"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://dreimark.com"
 
 # SEO and Sharing
 og_image: "/assets/images/og-image.jpg"
