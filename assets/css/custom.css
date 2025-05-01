@@ -31,11 +31,24 @@
 
 .author-links li {
   margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #eee;
 }
 
 .author-links a {
   text-decoration: none;
-  color: #ffffff;
+  color: inherit;
+  font-weight: 500;
+}
+
+.author-links a:hover {
+  text-decoration: underline;
+}
+
+.author-links i {
+  color: #8ab4f8;
 }
 
 .home-header {
