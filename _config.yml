@@ -105,8 +105,10 @@ sass:
 header:
   nav:
     - label: "About Me"
-      url: "/about/"
+      url: "/about-me/"
     - label: "Posts"
       url: "/posts/"
     - label: "Contact"
       url: "/contact/"
+    - label: "Articles"
+      url: "/articles/"
