@@ -35,14 +35,6 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dreimark"
 
-# Social Links
-social:
-  type: "Person"
-  name: "Michael Huber"
-  links:
-    - "https://github.com/dreimark"
-    - "mailto:michael@dreimark.com"
-
 # Footer Links
 footer:
   links:
