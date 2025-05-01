@@ -1,31 +1,31 @@
-title                    : "Micha Denkt In Text"
-title_separator          : "-"
-subtitle                 : "Digitale Gedanken zu Code, Technik & Automatisierung"
-name                     : "Michael Huber"
-description              : "Ein persönlicher Blog über Tech, Automatisierung, Selfhosting und digitale Ideen"
-locale                   : "de-DE"
-url                      : "https://dreimark.com"
-baseurl                  : ""
-repository               : "dreimark/dreimark.github.io"
-logo                     : "/assets/images/logo.png" # Make sure the logo exists
-masthead_title           : "Micha Denkt In Text"
-breadcrumbs              : true
-minimal_mistakes_skin    : "dark"
-custom_css:
-  - "/assets/css/custom.css"
+title: "Micha Denkt In Text"
+title_separator: "-"
+subtitle: "Digitale Gedanken zu Code, Technik & Automatisierung"
+name: "Michael Huber"
+description: "Ein persönlicher Blog über Tech, Automatisierung, Selfhosting und digitale Ideen"
+locale: "de-DE"
+url: "https://dreimark.com"
+baseurl: ""
+repository: "dreimark/dreimark.github.io"
+logo: "/assets/images/logo.png"
+masthead_title: "Micha Denkt In Text"
+breadcrumbs: true
+minimal_mistakes_skin: "dark"
 
-# Author
+custom_css:
+  - /assets/css/custom.css
+
 author:
-  name        : "Michael Huber"
-  avatar      : "/assets/images/avatar.jpg" # Replace with your actual avatar
-  bio         : "Dev, Tech Lover, Open Source Fan"
-  location    : "Offenburg, Germany"
-  email       : "michael@dreimark.com"
+  name: "Michael Huber"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Dev, Tech Lover, Open Source Fan"
+  location: "Offenburg, Germany"
+  email: "michael@dreimark.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dreimark.com"
-    - label: "Email"
+    - label: "E-Mail"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:michael@dreimark.com"
     - label: "GitHub"
@@ -38,17 +38,15 @@ author:
       icon: "fab fa-fw fa-mastodon"
       url: "https://chaos.social/@dreimark"
 
-# Social Links
 social:
-  type     : "Person"
-  name     : "Michael Huber"
+  type: "Person"
+  name: "Michael Huber"
   links:
     - "https://github.com/dreimark"
     - "https://chaos.social/@dreimark"
     - "mailto:michael@dreimark.com"
     - "https://www.linkedin.com/in/michaelhuberdev/"
 
-# Footer
 footer:
   links:
     - label: "GitHub"
@@ -58,17 +56,14 @@ footer:
       icon: "fab fa-fw fa-mastodon"
       url: "https://chaos.social/@dreimark"
 
-# SEO
-og_image: "/assets/images/og-image.jpg" # Recommended for better sharing appearance
+og_image: "/assets/images/og-image.jpg"
 copyright: "© 2025 Michael Huber"
 copyright_url: "https://dreimark.com"
 
-# Enable Features
 search: true
 search_full_content: true
 enable_copy_code_button: true
 
-# Defaults for posts
 defaults:
   - scope:
       path: ""
@@ -81,19 +76,15 @@ defaults:
       share: true
       related: true
 
-# Markdown + Output
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
 
-# Permalinks
 permalink: /:categories/:title/
 
-# Pagination
 paginate: 5
 paginate_path: /page:num/
 
-# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -101,21 +92,19 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
 
-# Archives
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
 
-# Compression
 compress_html:
   clippings: all
   ignore:
     envs: development
 
-# Sass
 sass:
   sass_dir: _sass
   style: compressed
