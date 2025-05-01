@@ -25,36 +25,22 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dreimark.com"
-    - label: "E-Mail"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:michael@dreimark.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dreimark"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/michaelhuberdev/"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://chaos.social/@dreimark"
 
 social:
   type: "Person"
   name: "Michael Huber"
   links:
     - "https://github.com/dreimark"
-    - "https://chaos.social/@dreimark"
     - "mailto:michael@dreimark.com"
-    - "https://www.linkedin.com/in/michaelhuberdev/"
 
 footer:
   links:
+    - label: "E-Mail"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:michael@dreimark.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dreimark"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://chaos.social/@dreimark"
 
 og_image: "/assets/images/og-image.jpg"
 copyright: "© 2025 Michael Huber"
