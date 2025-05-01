@@ -10,3 +10,23 @@
 
   /* weitere Anpassungen */
 }
+
+.author-links {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.author-links li {
+  margin-bottom: 5px;
+}
+
+.author-links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
