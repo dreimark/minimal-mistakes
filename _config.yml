@@ -28,6 +28,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dreimark.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:michael@dreimark.com"
 
 # Footer Links
 footer:
