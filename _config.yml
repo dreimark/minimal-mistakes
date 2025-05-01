@@ -45,12 +45,12 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dreimark"
 
-# SEO Settings
+# SEO and Sharing
 og_image: "/assets/images/og-image.jpg"
 copyright: "© 2025 Michael Huber"
 copyright_url: "https://dreimark.com"
 
-# Feature Settings
+# Features
 search: true
 search_full_content: true
 enable_copy_code_button: true
@@ -73,10 +73,10 @@ markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
 
-# Permalink Structure
+# Permalinks
 permalink: /:categories/:title/
 
-# Pagination Settings
+# Pagination
 paginate: 5
 paginate_path: /page:num/
 
