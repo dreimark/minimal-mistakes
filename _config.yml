@@ -6,8 +6,8 @@ name: "Michael Huber"
 description: "Ein persönlicher Blog über Tech, Automatisierung, Selfhosting und digitale Ideen"
 locale: "de-DE"
 url: "https://dreimark.com"
-baseurl: ""
-repository: "dreimark/dreimark.github.io"
+baseurl: "" # Site is hosted at root domain
+repository: "https://github.com/dreimark/minimal-mistakes"
 logo: "/assets/images/logo.png"
 masthead_title: "Micha Denkt In Text"
 breadcrumbs: true
@@ -15,7 +15,7 @@ minimal_mistakes_skin: "dark"
 
 # Custom CSS
 custom_css:
-  - /assets/css/custom.css
+  - "/assets/css/custom.css"
 
 # Author Information
 author:
@@ -53,12 +53,12 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dreimark"
 
-# SEO and Sharing
+# SEO Settings
 og_image: "/assets/images/og-image.jpg"
 copyright: "© 2025 Michael Huber"
 copyright_url: "https://dreimark.com"
 
-# Features
+# Feature Settings
 search: true
 search_full_content: true
 enable_copy_code_button: true
@@ -81,10 +81,10 @@ markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
 
-# Permalinks
+# Permalink Structure
 permalink: /:categories/:title/
 
-# Pagination
+# Pagination Settings
 paginate: 5
 paginate_path: /page:num/
 
@@ -92,6 +92,7 @@ paginate_path: /page:num/
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll-gist
   - jekyll-include-cache
 
